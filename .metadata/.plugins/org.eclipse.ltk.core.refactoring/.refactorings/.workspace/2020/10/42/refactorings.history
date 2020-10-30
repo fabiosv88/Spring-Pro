@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Delete resource &apos;ws-SpringUniFCV&apos;" deleteContents="false" description="Delete resource &apos;ws-SpringUniFCV&apos;" element1="/ws-SpringUniFCV" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1602540427319"/>&#x0A;<refactoring comment="Delete resource &apos;devdojo-springboot&apos;" deleteContents="false" description="Delete resource &apos;devdojo-springboot&apos;" element1="/devdojo-springboot" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1602541173577"/>
+</session>

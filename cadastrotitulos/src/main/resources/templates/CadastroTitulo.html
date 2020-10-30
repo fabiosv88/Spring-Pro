@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+<meta charset="UTF-8">
+
+<title>Cadastro de Título</title>
+
+<link rel="stylesheet" type="text/css" href="/css/style.css" />
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+
+</head>
+
+<body>
+	<!-- Image and text -->
+	<nav class="navbar navbar-light" style="background-color: #121149">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<a class="navbar-brand" href="#"> <img src="/imagem/docs.png"
+					width="30" height="30" class="d-inline-block align-top" alt=""
+					loading="lazy"> <font color="#E7E7E7" size="6"
+					face="ARIAL BLACK"></font>
+				</a>
+			</div>
+		</div>
+	</nav>
+
+	<br>
+	<br>
+
+	<form class="form-horizontal" method="POST" action="/titulos">
+		<div class="container">
+			<div class="panel-group">
+				<div class="panel panel-default">
+					<div class="panel-heading">
+						<font size="4" face="ARIAL BLACK">Novo Título</font>
+					</div>
+					<div class="panel-body">
+
+						<div class="form-group">
+							<label for="descricao" class="col-sm-2 control-label">Descrição</label>
+							<div class="col-sm-7">
+								<input type="text" class=" form-control" id="descricao"
+									name="descricao" />
+							</div>
+						</div>
+
+						<br> <br>
+
+						<div class="form-group">
+							<label for="dataVencimento" class="col-sm-2 control-label">Data
+								de Vencimento</label>
+							<div class="col-sm-2">
+								<input type="text" class="form-control" id="dataVencimento"
+									name="dataVencimento" />
+							</div>
+						</div>
+
+						<br> <br>
+
+						<div class="form-group">
+							<label for="valor" class="col-sm-2 control-label">Valor</label>
+							<div class="col-sm-2">
+								<input type="text" class="form-control" id="valor" name="valor" />
+							</div>
+						</div>
+
+						<br> <br>
+
+						<div class="form-group">
+							<label for="status" class="col-sm-2 control-label">Status</label>
+							<div class="col-sm-2">
+								<select class="form-control" name="status">
+									<option value="PENDENTE">Pendente</option>
+									<optionvalue value="RECEBIDO">Recebido</option>
+								</select>
+							</div>
+						</div>
+
+						<br> <br>
+
+						<div class="form-group">
+							<div class="col-sm-offset-2 col-sm-10">
+								<button type="submit" class="btn btn-primary">Salvar</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</form>
+
+	<script src="/js/bootstrap.min.js"></script>
+</body>
+</html>
